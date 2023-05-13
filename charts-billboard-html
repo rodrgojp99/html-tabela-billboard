@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>equipe</title>
+</head>
+<body>
+
+    <h1> Texto titulo equipe.html</h1>
+<h3> Tabela Billboard - Songs Abril </h3>
+   
+<!-- tabela para equipe.html -->
+<table border="1">
+    <tr>
+    <th>raking</th>
+        <th>song</th>
+            <th>artist</th>
+       </tr>
+    <tr>
+       <td>#1</td>
+       <td>Kill Bill</td>
+       <td>Sza</td>
+    </tr>
+        <td>#2</td>
+        <td>Last Night</td>
+        <td>Morgan</td>
+    <tr>
+        <td>#3</td>
+        <td>Flowers</td>
+        <td>Miley Cyrus</td>
+    </tr>
+    <tr>
+        <td>#4</td>
+        <td>Princess Diana</td>
+        <td>Ice Spice</td>
+    </tr>
+    <tr>
+        <td>#5</td>
+        <td>Ella Balla</td>
+        <td>Eslabon Armado</td>
+    </tr>
+    </table>
+
+</body>
+<!-- alteração de cor e posição tanto da tabela quanto do titulo/subtitulo usando css -->
+<style>
+    table {
+			border-collapse: collapse;
+            border: 2px solid blueviolet;
+			width: 100%;
+			max-width: 800px;
+			margin: 0 auto;
+			font-size: 18px;
+    
+		}
+    h1 {
+			text-align: center;
+		}
+
+        h3 {
+            color: blueviolet;
+			text-align: center;
+		}
+</style>
+<!-- uso de lista <ul> -->
+<ul>
+    <li>A Billboard é a tabela de padrão da indústria musical nos Estados Unidos.</li>
+    <li>As classificações são baseadas em vendas e execuções.</li>
+    <li>O período de rastreamento é semanal, nicialmente de segunda a domingo.</li>
+</ul>
+
+</html>
